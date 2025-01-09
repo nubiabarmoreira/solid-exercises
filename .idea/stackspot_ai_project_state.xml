@@ -6,9 +6,11 @@
         <entry key="nubia.moreira@zup.com.br">
           <value>
             <ProjectStateData>
-              <option name="conversationId" value="01JH4245T8ZP60K6WN56BZXTKB" />
+              <option name="conversationId" value="01JH5TV018W1S3T88V3G6RANMX" />
               <option name="indexedFiles">
                 <map>
+                  <entry key="$PROJECT_DIR$/src/lsp/Forma.java" value="18986" />
+                  <entry key="$PROJECT_DIR$/src/lsp/FormasGeometricas.java" value="57595" />
                   <entry key="$PROJECT_DIR$/src/ocp/Main.java" value="31829" />
                 </map>
               </option>
