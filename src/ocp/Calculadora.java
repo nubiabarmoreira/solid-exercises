@@ -19,3 +19,10 @@ class Subtracao implements Operacao {
         return a - b;
     }
 }
+
+class Multiplicacao implements Operacao {
+    @Override
+    public int operacaoCalculadora(int a, int b) {
+        return a * b;
+    }
+}

@@ -1,5 +1,6 @@
 package ocp;
 
+import java.nio.channels.MulticastChannel;
 import java.util.Scanner;
 
 public class Main {
@@ -8,6 +9,7 @@ public class Main {
         Calculadora calculadora = new Calculadora();
         Soma soma = new Soma();
         Subtracao subtracao = new Subtracao();
+        Multiplicacao multiplicacao = new Multiplicacao();
 
         System.out.print("Digite o primeiro número: ");
         int a = input.nextInt();
@@ -15,7 +17,7 @@ public class Main {
         System.out.print("Digite o segundo número: ");
         int b = input.nextInt();
         input.nextLine();
-        System.out.print("Informe o tipo de operação que deseja realizar: (soma/subtração) ");
+        System.out.print("Informe o tipo de operação que deseja realizar: (soma/subtração/multiplicação) ");
         String operacao = input.nextLine();
 
         int resultado;
@@ -23,14 +25,18 @@ public class Main {
         switch (operacao) {
             case "soma":
                 resultado = calculadora.calcular(a, b, soma);
-                System.out.println(resultado);
+                System.out.print(resultado);
                 break;
             case "subtração":
                 resultado = calculadora.calcular(a, b, subtracao);
-                System.out.println(resultado);
+                System.out.print(resultado);
+                break;
+            case "multiplicação":
+                resultado = calculadora.calcular(a, b, multiplicacao);
+                System.out.print(resultado);
                 break;
             default:
-                System.out.println("Operação inválida. Escolha soma ou subtração.");
+                System.out.println("Operação inválida. Escolha soma, subtração ou multiplicação.");
                 break;
         }
 
