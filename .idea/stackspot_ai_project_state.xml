@@ -9,6 +9,15 @@
               <option name="conversationId" value="01JH5TV018W1S3T88V3G6RANMX" />
               <option name="indexedFiles">
                 <map>
+                  <entry key="$PROJECT_DIR$/src/dip/Computador.java" value="70971" />
+                  <entry key="$PROJECT_DIR$/src/dip/DispositivoEntrada.java" value="76092" />
+                  <entry key="$PROJECT_DIR$/src/dip/Main.java" value="75981" />
+                  <entry key="$PROJECT_DIR$/src/dip/Teclado.java" value="64385" />
+                  <entry key="$PROJECT_DIR$/src/isp/Atendedor.java" value="58677" />
+                  <entry key="$PROJECT_DIR$/src/isp/Atendente.java" value="60320" />
+                  <entry key="$PROJECT_DIR$/src/isp/Desenvolvedor.java" value="59717" />
+                  <entry key="$PROJECT_DIR$/src/isp/Main.java" value="63389" />
+                  <entry key="$PROJECT_DIR$/src/isp/Programador.java" value="59071" />
                   <entry key="$PROJECT_DIR$/src/lsp/Forma.java" value="18986" />
                   <entry key="$PROJECT_DIR$/src/lsp/FormasGeometricas.java" value="57945" />
                   <entry key="$PROJECT_DIR$/src/ocp/Main.java" value="31829" />
