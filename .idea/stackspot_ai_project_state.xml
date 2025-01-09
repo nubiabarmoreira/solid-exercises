@@ -11,7 +11,8 @@
                 <map>
                   <entry key="$PROJECT_DIR$/src/dip/Computador.java" value="70971" />
                   <entry key="$PROJECT_DIR$/src/dip/DispositivoEntrada.java" value="76092" />
-                  <entry key="$PROJECT_DIR$/src/dip/Main.java" value="75981" />
+                  <entry key="$PROJECT_DIR$/src/dip/Main.java" value="80519" />
+                  <entry key="$PROJECT_DIR$/src/dip/Mouse.java" value="77685" />
                   <entry key="$PROJECT_DIR$/src/dip/Teclado.java" value="64385" />
                   <entry key="$PROJECT_DIR$/src/isp/Atendedor.java" value="58677" />
                   <entry key="$PROJECT_DIR$/src/isp/Atendente.java" value="60320" />

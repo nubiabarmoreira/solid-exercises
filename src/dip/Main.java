@@ -6,5 +6,10 @@ public class Main {
         Computador computadorComTeclado = new Computador(teclado);
 
         computadorComTeclado.usar();
+
+        DispositivoEntrada mouse = new Mouse();
+        Computador computadorComMouse = new Computador(mouse);
+
+        computadorComMouse.usar();
     }
 }
